@@ -19,6 +19,6 @@ ANTI_BAD: process.env.ANTI_BAD || "true",
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '+94703963077' : process.env.DELETEMSGSENDTO,
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 };
